@@ -1,4 +1,7 @@
-dlib是一个C++写的库，支持Python引用，这里介绍如何安装和使用，作者使用开发环境Ubuntu16.04+Python2.7
+作者使用开发环境Ubuntu16.04+Python2.7
+- dlib
+- opencv
+- numpy
 
 # 1.安装重要依赖库
 
