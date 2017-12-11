@@ -43,7 +43,7 @@ while(True):
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     face_key = ket_points(gray)
-    face_detector = frontalface(gray)
+    # face_detector = frontalface(gray)
     cv2.imshow('frame',face_key)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
